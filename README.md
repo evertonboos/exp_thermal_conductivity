@@ -14,10 +14,10 @@ Notice the use of the function **get_l**, which is part of the Regularization To
 
 Main codes:
 - **exp_direct.m**: runs the direct problem solver
-- **exp_inverse.m** (and its variants): runs the inverse problem solver, used to build data in tables and figures
+- **exp_inverse.m** (and its variants **exp_inverse_over.m**, **exp_inverse_experimental.m** and **exp_inverse_synthetic.m**): runs the inverse problem solver for each specific scenario, used to build data in tables and figures
 
 To see data used in figures and tables:
-- **repetition_results.m** (and its variants): processes data in the .mat files (which were previously collected in the inverse problems solvers) into figures and tables
+- **repetition_results.m** (and its variants **repetition_results_experimental.m** and **repetition_results_synthetic.m**): processes data in the .mat files (which were previously collected in the inverse problems solvers) into figures and tables
 - **plot_line_average.m**: shows line plots present in Example 1 and 2 from data in the .mat files
 - **plot_domain.m**: plots the domain for MS1 and MS2 measurement strategies present in Figure 2
 
